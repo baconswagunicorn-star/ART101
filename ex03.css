@@ -1,0 +1,53 @@
+HTML {background-color: rgb(119, 251, 222); 
+
+}
+
+a {background-color:aqua}
+
+A:hover {background-color:blueviolet}
+
+p {color: purple;}
+
+UL {
+    color: red;
+}
+
+h1 {
+    background-color: rgb(19, 32, 113);
+    color: rgb(82, 172, 172);
+    font-weight: normal;
+}
+
+P {
+    background-color: cornsilk;
+    padding: 20px;
+    margin: 50px;
+
+}
+
+IMG {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+#dancing-pony IMG:hover {transform: scaleX(-1);}
+
+.highlight_01 {background-color:aqua}
+
+.highlight_01 strong {background-color:palevioletred
+(251, 177, 202)}
+
+.highlight_02 {background-color:pink}
+
+#main { background-color:rgb(254, 160, 238); padding: 50px; margin:100px;
+    -webkit-box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 7px -5px 10px 0px #4B0082, 11px -9px 10px 0px #0000FF, 16px -14px 10px 0px #00FF00, 20px -17px 10px 0px #FFFF00, 24px -19px 10px 0px #FF7F00, 27px -23px 10px 0px #FF0000, 5px 5px 15px 5px rgba(0,0,0,0);}
+
+#gallery {display:flex; flex-wrap: wrap;
+align-items: flex-start; row-gap: 30px;
+column-gap: 50px;}
+
+#gallery IMG { width: 300px;}
+#gallery div { width: 300px; }
