@@ -6,17 +6,36 @@ a {background-color:pink;}
     border: 6px inset #ffc2d1;
     flex: 2;
 }
-img{
+img {
 display:block;
 margin-left: auto;
 margin-right: auto;
 width: 20%;
 border-radius: 8px;
 }
-#puppy 
-{padding: 20px;
-
-IMG:hover {transform: scaleX(-1);
+#puppy IMG:hover {transform: scaleX(-1);
     
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+    margin-top: 5%;
+  flex: 33.33%;
+}
+#cat {
+    margin-left:70%;
+    width:50%
+}
+#speech {
+    margin-left:30%;
+    width:100%;
+}
+.container {
+    position:relative;
+    text-align:center;
+}
+.center {position:absolute;
 }
